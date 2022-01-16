@@ -1,0 +1,3 @@
+package google_gax;
+
+typedef PaginationCallback<RequestObject, ResponseObject, ResponseType> = ts.AnyOf4<(err:Null<js.lib.Error>) -> Void, (err:Null<js.lib.Error>, values:Array<ResponseType>) -> Void, (err:Null<js.lib.Error>, values:Array<ResponseType>, nextPageRequest:RequestObject) -> Void, (err:Null<js.lib.Error>, values:Array<ResponseType>, nextPageRequest:RequestObject, rawResponse:ResponseObject) -> Void>;
